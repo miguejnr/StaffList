@@ -1,0 +1,44 @@
+.bar {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar > h1 {
+    font: normal normal bold 30px/37px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0;
+}
+
+.bar__search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #8298A7;
+    border-radius: 6px;
+    opacity: 1;
+    color: gray;
+  }
+
+  .bar__search  > input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+  }
+
+  .bar__add > button {
+    background: #2C86D5 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    outline: none;
+  }
